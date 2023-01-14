@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1068263221493",
+    "project_id": "vg-mart",
+    "storage_bucket": "vg-mart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068263221493:android:d00328338ddb47458c7dbc",
+        "android_client_info": {
+          "package_name": "com.vgmartapp.vgmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068263221493-4ht1mnoghv9a3ranooo8unlmn46nb4sg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vgmartapp.vgmart",
+            "certificate_hash": "0c43cbfceeef890da09c75f75921ee7e255502b1"
+          }
+        },
+        {
+          "client_id": "1068263221493-s3jihg989oejqo4bmp411hji0d4a2orr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vgmartapp.vgmart",
+            "certificate_hash": "4b3131a04dc76ceb0091d852271ffd3e4552a370"
+          }
+        },
+        {
+          "client_id": "1068263221493-3g9jjdar0qh8qg9gsdbidntmceimnull.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcXNAYclO09ZsRwXqeeanzXICm0HzMX_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068263221493-3g9jjdar0qh8qg9gsdbidntmceimnull.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1068263221493-i9nqjfjackbns4deiclh7bmeopglsk8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.vgmart"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
