@@ -4,8 +4,9 @@ import 'package:get/get.dart';
 
 import '../controllers/profile_controller.dart';
 
-class ProfileView extends GetView<ProfileController> {
-  const ProfileView({Key? key}) : super(key: key);
+class ProfileView extends StatelessWidget {
+  ProfileView({Key? key}) : super(key: key);
+  final controller = Get.put(ProfileController());
   @override
   Widget build(BuildContext context) {
     return Scaffold(

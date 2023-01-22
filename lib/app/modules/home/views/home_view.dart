@@ -2,13 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/home_controller.dart';
 
-class HomeView extends GetView<HomeController> {
-  const HomeView({Key? key}) : super(key: key);
+class HomeView extends StatelessWidget {
+  HomeView({Key? key}) : super(key: key);
+  final controller = Get.put(HomeController());
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('VG Mart'),
+        title: Obx((){
+          return Text(controller.count.value.toString());
+        }),
+        //title: const Text('VG Mart'),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -173,6 +177,7 @@ class HomeView extends GetView<HomeController> {
           ),
         ],
       ),
+      floatingActionButton: IconButton(onPressed: (){controller.count.value++;},icon: Icon(Icons.add),),
     );
   }
 }

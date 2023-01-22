@@ -1,9 +1,13 @@
 import 'package:get/get.dart';
 
+import '../modules/bottombar/bindings/bottombar_binding.dart';
+import '../modules/bottombar/views/bottombar_view.dart';
 import '../modules/cart/bindings/cart_binding.dart';
 import '../modules/cart/views/cart_view.dart';
 import '../modules/category/bindings/category_binding.dart';
 import '../modules/category/views/category_view.dart';
+import '../modules/explore/bindings/explore_binding.dart';
+import '../modules/explore/views/explore_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/login/bindings/login_binding.dart';
@@ -27,43 +31,53 @@ class AppPages {
   static final routes = [
     GetPage(
       name: _Paths.HOME,
-      page: () => const HomeView(),
+      page: () =>  HomeView(),
       binding: HomeBinding(),
     ),
     GetPage(
       name: _Paths.LOGIN,
-      page: () => const LoginView(),
+      page: () =>  LoginView(),
       binding: LoginBinding(),
     ),
     GetPage(
       name: _Paths.CART,
-      page: () => const CartView(),
+      page: () =>  CartView(),
       binding: CartBinding(),
     ),
     GetPage(
       name: _Paths.PRODUCT,
-      page: () => const ProductView(),
+      page: () =>  ProductView(),
       binding: ProductBinding(),
     ),
     GetPage(
       name: _Paths.PROFILE,
-      page: () => const ProfileView(),
+      page: () =>  ProfileView(),
       binding: ProfileBinding(),
     ),
     GetPage(
       name: _Paths.SETTING,
-      page: () => const SettingView(),
+      page: () =>  SettingView(),
       binding: SettingBinding(),
     ),
     GetPage(
       name: _Paths.CATEGORY,
-      page: () => const CategoryView(),
+      page: () =>  CategoryView(),
       binding: CategoryBinding(),
     ),
     GetPage(
       name: _Paths.UPLOAD,
       page: () => const UploadView(),
       binding: UploadBinding(),
+    ),
+    GetPage(
+      name: _Paths.BOTTOMBAR,
+      page: () =>  BottombarView(),
+      binding: BottombarBinding(),
+    ),
+    GetPage(
+      name: _Paths.EXPLORE,
+      page: () =>  ExploreView(),
+      binding: ExploreBinding(),
     ),
   ];
 }

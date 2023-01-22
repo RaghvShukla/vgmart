@@ -11,6 +11,8 @@ abstract class Routes {
   static const SETTING = _Paths.SETTING;
   static const CATEGORY = _Paths.CATEGORY;
   static const UPLOAD = _Paths.UPLOAD;
+  static const BOTTOMBAR = _Paths.BOTTOMBAR;
+  static const EXPLORE = _Paths.EXPLORE;
 }
 
 abstract class _Paths {
@@ -23,4 +25,6 @@ abstract class _Paths {
   static const SETTING = '/setting';
   static const CATEGORY = '/category';
   static const UPLOAD = '/upload';
+  static const BOTTOMBAR = '/bottombar';
+  static const EXPLORE = '/explore';
 }

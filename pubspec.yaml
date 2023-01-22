@@ -23,6 +23,7 @@ dependencies:
   firebase_remote_config: ^3.0.9
 
   image_picker: ^0.8.6
+  flex_color_scheme: ^6.1.2
 
 dev_dependencies:
   flutter_lints: ^2.0.0

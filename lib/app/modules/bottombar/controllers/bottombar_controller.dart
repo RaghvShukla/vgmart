@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class HomeController extends GetxController {
-final count = 0.obs;
+class BottombarController extends GetxController {
+  final RxInt currentIndex = 0.obs;
 
   @override
   void onInit() {
@@ -17,6 +17,4 @@ final count = 0.obs;
   void onClose() {
     super.onClose();
   }
-
-
 }
